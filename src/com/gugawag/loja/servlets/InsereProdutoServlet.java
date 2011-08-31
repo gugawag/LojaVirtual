@@ -21,7 +21,7 @@ import com.gugawag.loja.modelo.Produto;
 
 /**
  *
- * @author profgustavo
+ * @author gustavo
  */
 @WebServlet("/inserirproduto.do")
 public class InsereProdutoServlet extends HttpServlet {
