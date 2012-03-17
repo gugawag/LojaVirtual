@@ -1,0 +1,14 @@
+Sistema desenvolvido para praticar ideiais de uma Loja Virtual.
+
+Tarefas a serem realizadas:
+
+1 - Se clicar mais de uma vez no mesmo produto na lista de produtos ele aparecerá várias vezes no carrinho.
+Sua tarefa é modificar isso para, caso o usuário clique mais de uma vez no mesmo produto, o carrinho só mostre
+um produto, alterando apenas a quantidade por produto no carrinho.
+2 - Botão excluir ao lado de cada item do carrinho. Se clicar nesse botão, deve-se tirar o produto correspondente do carrinho.
+Façam um servlet RemoveProdutoServlet que faz essa tarefa. Após clicar em excluir, tanto deve-se excluir do carrinho como 
+mostrar os itens que restaram. Ou seja, usem o RequestDispatcher assim como foi usado no InsereProdutoServlet;
+3 - Coloque o valor total do carrinho na última linha da tabela do carrinho;
+4 - Finalize a sessão com um servlet FinalizaSessaoServlet. Para isso estude e use o método session.invalidate();
+
+Qualquer dúvida mandem e-mail.
