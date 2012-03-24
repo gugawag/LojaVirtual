@@ -10,5 +10,6 @@ Façam um servlet RemoveProdutoServlet que faz essa tarefa. Após clicar em exclui
 mostrar os itens que restaram. Ou seja, usem o RequestDispatcher assim como foi usado no InsereProdutoServlet;
 3 - Coloque o valor total do carrinho na última linha da tabela do carrinho;
 4 - Finalize a sessão com um servlet FinalizaSessaoServlet. Para isso estude e use o método session.invalidate();
+5 - Fazer o JSP listarCarrinho.jsp e remover o servlet ListaCarrinhoServlet;
 
 Qualquer dúvida mandem e-mail.
