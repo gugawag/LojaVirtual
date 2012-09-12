@@ -27,7 +27,6 @@ public class InsereProdutoServlet extends HttpServlet {
      */
     public InsereProdutoServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**

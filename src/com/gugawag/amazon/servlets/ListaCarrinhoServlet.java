@@ -40,7 +40,7 @@ public class ListaCarrinhoServlet extends HttpServlet {
 		List<ItemCarrinho> itens = carrinho.getItens(); 
 		PrintWriter out = response.getWriter();
 		out.write("<html><body><table border=1>");
-		out.write("<tr><td><b>Descrição</b></td><td><b>Valor Unitário</b></td><td><b>Quantidade</b></td></tr>");
+		out.write("<tr><td><b>DescriÁ„ção</b></td><td><b>Valor Unitá·rio</b></td><td><b>Quantidade</b></td></tr>");
 		for(ItemCarrinho item: itens){
 			out.write("<tr><td>");
 			out.write(item.getProduto().getDescricao());
@@ -49,7 +49,7 @@ public class ListaCarrinhoServlet extends HttpServlet {
 			out.write("</td></tr>");
 		}
 		out.write("<tr><td><b>Valor Total:</b></td><td>COLOCAR AQUI</td></tr>");
-		out.write("</table> <a href=\"listarprodutos.do\">Continuar Comprando</a>|" +
+		out.write("</table> <a href=\"listarProdutos.jsp\">Continuar Comprando</a>|" +
 				"<a href=\"finalizar.do\">Finalizar Compra</a>" +
 				"</body></html>");
 		out.close();

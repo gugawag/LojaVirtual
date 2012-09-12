@@ -16,11 +16,8 @@
   </tr>
   <c:forEach var="produto" items="${applicationScope.produtos}">
   	<tr><td><a href="inserir.do?codigo=${produto.codigo}">${produto.descricao}</a></td><td>${produto.valor}</td></tr>
-  </c:forEach>
-  
+  </c:forEach>  
   </table>
- 
-	
 
 </body>
 </html>
